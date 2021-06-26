@@ -22,9 +22,11 @@
 				nemo dolorem doloremque ad recusandae molestiae.
 			</p>
 			<span>
-				<Button>Em Destaque</Button>
-				<button class="px-4 py-2 text-sm bg-workattack/20 text-workattack rounded-full"
-					>Mais Recente</button
+				<Button>
+					<a href="#feature">Em Destaque</a>
+				</Button>
+				<a href="/blog" class="px-4 py-2 text-sm bg-workattack/20 text-workattack rounded-full"
+					>Mais Recente</a
 				>
 			</span>
 		</article>
@@ -37,6 +39,7 @@
 	</section>
 
 	<PostsList
+		id="feature"
 		posts={featurePosts}
 		title={'Secção de Destaque'}
 		desc={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, natus.'}
